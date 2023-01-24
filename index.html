@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <title>Pricing component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style> -->
+  </head>
+  <body>
+    <div class="pricing">
+      <h1>Our Pricing</h1>
+      <div class="Annual">
+        <h3>Annually</h3>
+        <label class="slider">
+          <input type="checkbox" checked="true" onclick="changeAnnuallyToMonthly()">
+          <span class="checking"></span>
+        </label>
+        <h3>Monthly</h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="plan" id="color">
+        Basic
+        <div class="dollarmoney" id="basic-price">&dollar;199.99</div>
+        <div>
+          <hr>
+          500 GB Storage 
+          <hr>
+          2 Users Allowed 
+          <hr>
+          Send up to 3 GB 
+          <hr>
+          <button class="btn">Learn More</button>
+        </div> 
+      </div>
+      <div class="plan" id="color">
+        Professional
+        <div  class="dollarmoney" id="professional-price">&dollar;249.99</div>
+        <div>
+          <hr> 
+          1 TB Storage 
+          <hr> 
+          5 Users Allowed 
+          <hr> 
+          Send up to 10 GB 
+          <hr> 
+          <button class="btn">Learn More</button>
+        </div> 
+      </div>
+      <div class="plan" id="color">
+        Master
+        <div class="dollarmoney" id="master-price">&dollar;399.99</div>
+        <div>
+          <hr>
+          2 TB Storage 
+          <hr> 
+          10 Users Allowed 
+          <hr>
+          Send up to 20 GB 
+          <hr> 
+          <button class="btn">Learn More</button>
+        </div> 
+      </div>
+    </div>
+  </body>
+</html>
