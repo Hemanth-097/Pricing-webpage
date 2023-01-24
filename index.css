@@ -98,6 +98,7 @@ input:checked+.checking::before{
     background-color: white;
 }
 
+
 .plan:hover {
     color: black;
     transform: scale(1.1);
@@ -108,7 +109,7 @@ input:checked+.checking::before{
 }
 
 .dollarmoney{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 100px;
     display: flex;
@@ -134,9 +135,9 @@ input:checked+.checking::before{
     margin: 15px 0;
     border: none;
     padding: 10px 24px;
+    cursor: pointer;
 }
 .plan:hover .btn {
-    background: transparent;
     background: white;
     color:  hsl(236, 72%, 79%);
 }
@@ -168,3 +169,4 @@ input:checked+.checking::before{
         transform: scale(1);
     }
 }
+
