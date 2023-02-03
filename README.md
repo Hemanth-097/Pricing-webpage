@@ -2,10 +2,6 @@
 
 <img width="925" alt="Screenshot_20230203_071022" src="https://user-images.githubusercontent.com/114087165/216617662-02950e94-3fdd-431b-bb25-019331abcb91.png">
 
-
-![Design preview for the File Transfer pricing component coding challenge](./design/desktop-preview.jpg)
-
-
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
